@@ -68,6 +68,39 @@ h1 {
 .timer {
   font-size: 24px;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.in-test-restart-btn {
+  background-color: transparent;
+  color: #aaa;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.in-test-restart-btn:hover,
+.in-test-restart-btn:focus {
+  color: #e2b714;
+  background-color: rgba(226, 183, 20, 0.1);
+  outline: none;
+}
+
+.in-test-restart-btn:focus-visible {
+  box-shadow: 0 0 0 2px rgba(226, 183, 20, 0.5);
+}
+
+.restart-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .test-container {
